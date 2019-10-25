@@ -1,3 +1,5 @@
+const age: any = 'seventeen';
+
 declare namespace Foo {
   export function foo(s: string): void;
   export function foo(n: number): void;
