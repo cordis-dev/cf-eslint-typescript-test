@@ -1,5 +1,5 @@
 const age: any = 'seventeen';
-const a: bigint = 10n;
+const a = 10n;
 
 declare namespace Foo {
   export function foo(s: string): void;
