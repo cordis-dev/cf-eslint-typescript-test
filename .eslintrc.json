@@ -14,7 +14,7 @@
     "ecmaFeatures": {}
   },
   "rules:": {
-    "no-unused-vars": [
+    "@typescript-eslint/no-unused-vars": [
       "warn",
       {
         "vars": "local",
