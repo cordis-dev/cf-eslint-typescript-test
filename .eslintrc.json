@@ -12,5 +12,14 @@
     "ecmaVersion": 6,
     "sourceType": "module",
     "ecmaFeatures": {}
+  },
+  "rules:": {
+    "no-unused-vars": [
+      "warn",
+      {
+        "vars": "none",
+        "args": "after-used",
+        "ignoreRestSiblings": false
+      }
   }
 }
